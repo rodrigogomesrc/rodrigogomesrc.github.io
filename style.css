@@ -1,0 +1,88 @@
+.container {
+
+	margin: 0 auto;
+	width: 1400px;
+}
+
+#faixa_cima {
+
+	height: 15px;
+	background-color: #4cb1ef;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+#faixa_baixo {
+
+	height: 5px;
+	background-color: #4cb1ef;
+}
+
+
+body {
+
+	font-family: Montserrat, Sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#inicio {
+
+	padding-top: 10px;
+	height: 700px;
+	background-color: #113977;
+	color: white;
+
+}
+
+#in_direito{
+
+	float: right;
+	width: 600px;
+	
+
+
+}
+
+#in_esquerdo {
+
+	float: left;
+	width: 600px;
+	margin-top: 220px;
+
+
+}
+
+.palavra_destacada {
+
+	color: #4cb1ef;
+	font-weight: bold;
+}
+
+#nome{
+
+	font-size: 35px;
+}
+
+.content {
+
+	margin: 100px 0px 100px 0px;
+	min-height: 500px;
+}
+
+
+.titulos {
+
+	color: #113977;
+	font-size: 35px;
+	margin-top: 50px;
+
+}
+
+footer {
+
+	min-height: 50px;
+	background-color: #113977;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
