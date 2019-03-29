@@ -1,7 +1,125 @@
+/*pra criar mais um breakpoint de resolução pra eu deixar no ponto que eu quero.*/
+
+@media (min-width: 1500px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+
+#inicio {
+
+	background-color: #113977;
+	height: 720px;
+	color: white;
+
+}
+
+.container{
+
+	min-height: 500px;
+
+}
+
+.titulos {
+
+	color: #113977;
+	font-size: 35px;
+	margin-top: 50px;
+
+}
+
+
+#lado_direito{
+
+	min-height: 720px;
+	
+}
+
+
+#lado_esquerdo{
+
+	min-height: 720px;
+	padding-top: 255px;
+	padding-right: 280px;
+	
+
+}
+
+#faixa_superior{
+
+	height: 15px;
+	background-color: #4cb1ef;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	width: 100%;
+
+}
+
+
+#faixa_inferior{
+
+	height: 5px;
+	background-color: #4cb1ef;
+}
+
+#conteudo{
+
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+
+.palavra_destacada {
+
+	color: #4cb1ef;
+	font-weight: bold;
+}
+
+body{
+
+	font-family: Montserrat, Sans-serif; 
+}
+
+h1{
+
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+footer{
+
+	height: 100px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	background-color: #113977;
+
+}
+
+/*
 .container {
 
 	margin: 0 auto;
 	width: 1400px;
+}
+
+#inicio {
+
+	padding-top: 10px;
+	height: 700px;
+	background-color: #113977;
+	color: white;
+	width: 100%;
+
+}
+
+h1 {
+
+	font-weight: bold;
+	font-size: 35px;
 }
 
 #faixa_cima {
@@ -9,6 +127,7 @@
 	height: 15px;
 	background-color: #4cb1ef;
 	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	width: 100%;
 }
 
 #faixa_baixo {
@@ -20,19 +139,12 @@
 
 body {
 
-	font-family: Montserrat, Sans-serif;
+	font-family: Montserrat, Sans-serif; 
 	margin: 0;
 	padding: 0;
 }
 
-#inicio {
 
-	padding-top: 10px;
-	height: 700px;
-	background-color: #113977;
-	color: white;
-
-}
 
 #in_direito{
 
@@ -86,3 +198,4 @@ footer {
 	text-align: center;
 	padding: 20px;
 }
+*/
