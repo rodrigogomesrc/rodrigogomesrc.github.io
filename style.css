@@ -1,16 +1,8 @@
 /*pra criar mais um breakpoint de resolução pra eu deixar no ponto que eu quero.*/
-
-@media (min-width: 1500px) {
-    .container{
-        max-width: 1400px;
-    }
-}
-
-
 #inicio {
 
 	background-color: #113977;
-	height: 720px;
+	height: 600px;
 	color: white;
 
 }
@@ -24,24 +16,24 @@
 .titulos {
 
 	color: #113977;
-	font-size: 35px;
-	margin-top: 50px;
+	font-size: 25px;
+	margin-top: 15px;
 
 }
 
 
 #lado_direito{
 
-	min-height: 720px;
+	min-height: 300px;
+	background-color: pink;
 	
 }
 
 
 #lado_esquerdo{
 
-	min-height: 720px;
-	padding-top: 255px;
-	padding-right: 280px;
+	min-height: 300px;
+	padding: 80px 20px 50px 20px;
 	
 
 }
@@ -82,7 +74,7 @@ body{
 
 h1{
 
-	font-size: 32px;
+	font-size: 20px;
 	font-weight: bold;
 	padding-bottom: 10px;
 }
@@ -99,103 +91,107 @@ footer{
 
 }
 
-/*
-.container {
+@media (min-width: 768px){
 
-	margin: 0 auto;
-	width: 1400px;
-}
 
-#inicio {
+	#inicio{
 
-	padding-top: 10px;
-	height: 700px;
-	background-color: #113977;
-	color: white;
-	width: 100%;
+		height: 350px;
+	}
 
-}
+	#lado_direito{
 
-h1 {
+		min-height: 350px;
 
-	font-weight: bold;
-	font-size: 35px;
-}
+	}
 
-#faixa_cima {
 
-	height: 15px;
-	background-color: #4cb1ef;
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
-	width: 100%;
-}
+	#lado_esquerdo{
 
-#faixa_baixo {
+		padding-top: 100px;
+		min-height: 350px;
+	}
 
-	height: 5px;
-	background-color: #4cb1ef;
+
+
 }
 
 
-body {
+@media (min-width: 992px){
 
-	font-family: Montserrat, Sans-serif; 
-	margin: 0;
-	padding: 0;
+
+
+	#inicio{
+
+		height: 500px;
+	}
+
+	#lado_direito{
+
+		min-height: 500px;
+
+	}
+
+
+	#lado_esquerdo{
+
+		padding-top: 150px;
+		min-height: 500px;
+		padding-right: 100px;
+	}
+
+	h1{
+
+		font-size: 25px;
+	}
+
+	.titulos {
+
+		font-size: 30px;
+		margin-top: 25px;
+	}
+
+	
 }
 
 
+@media (min-width: 1500px) {
 
-#in_direito{
+    .container{
+        max-width: 1400px;
+    }
 
-	float: right;
-	width: 600px;
+
+	#inicio{
+
+		height: 720px;
+	}
+
+	#lado_direito{
+
+		min-height: 720px;
+
+	}
+
+
+	#lado_esquerdo{
+
+		padding-top: 255px;
+		min-height: 720px;
+		padding-right: 280px;
+	}
+
+	.titulos {
+
+		font-size: 30px;
+		margin-top: 50px;
+	}
+
+	h1{
+
+		font-size: 32px;
+	}
+
 	
 
-
 }
-
-#in_esquerdo {
-
-	float: left;
-	width: 600px;
-	margin-top: 220px;
-
-
-}
-
-.palavra_destacada {
-
-	color: #4cb1ef;
-	font-weight: bold;
-}
-
-#nome{
-
-	font-size: 35px;
-}
-
-.content {
-
-	margin: 100px 0px 100px 0px;
-	min-height: 500px;
-}
-
-
-.titulos {
-
-	color: #113977;
-	font-size: 35px;
-	margin-top: 50px;
-
-}
-
-footer {
-
-	min-height: 50px;
-	background-color: #113977;
-	color: white;
-	text-align: center;
-	padding: 20px;
-}
-*/
