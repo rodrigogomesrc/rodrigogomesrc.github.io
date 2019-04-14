@@ -6,11 +6,39 @@
 
 }
 
-.container{
+.container {
 
 	min-height: 500px;
 
 }
+
+.wrapper {
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+	grid-auto-rows: minmax(120px, auto);
+	padding: 5px;
+
+
+}
+
+.bloco {
+
+	text-align: center;
+	border-bottom: 5px solid #4cb1ef;
+	border-top: 1px solid #ddd;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+.bloco > img {
+
+	margin-top: 20px;
+	height: 60px;
+}
+
 
 .titulos {
 
@@ -19,6 +47,13 @@
 	margin-top: 15px;
 
 }
+
+.faixa_inferior{
+
+	height: 5px;
+	background-color: #4cb1ef;
+}
+
 
 
 #lado_direito{
@@ -43,13 +78,6 @@
 	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
 	width: 100%;
 
-}
-
-
-#faixa_inferior{
-
-	height: 5px;
-	background-color: #4cb1ef;
 }
 
 #conteudo{
@@ -110,6 +138,14 @@ footer{
 		min-height: 350px;
 	}
 
+	.wrapper {
+
+		grid-template-columns: repeat(3, 1fr);
+
+	}
+
+}
+
 
 
 }
@@ -147,6 +183,12 @@ footer{
 
 		font-size: 30px;
 		margin-top: 25px;
+	}
+
+	.wrapper {
+
+		grid-template-columns: repeat(4, 1fr);
+
 	}
 
 	
@@ -190,6 +232,11 @@ footer{
 		font-size: 32px;
 	}
 
+	.wrapper {
+
+		grid-template-columns: repeat(6, 1fr);
+
+	}
 	
 
 }
