@@ -1,5 +1,5 @@
 
-html, body{
+html, body {
 
 	font-family: Montserrat, Sans-serif;
 	width: 100%;
@@ -38,21 +38,21 @@ html, body{
 	grid-template-columns: 1fr;
 }
 
-.nav{
+.nav {
 
 	padding: 20px;
 	color: white;
 	background-color: #113977;
 }
 
-.nav a{
+.nav a {
 
 	text-decoration: none;
 	color: white;
 	padding: 28px;
 }
 
-.nav a:hover{
+.nav a:hover {
 
 	background-color: #4cb1ef;
 }
@@ -110,7 +110,7 @@ html, body{
 	padding: 50px 0px 50px 0px; 
 }
 
-.txtcentral{
+.txtcentral {
 
 	padding: 30px;
 	padding-top: 35px;
@@ -126,7 +126,7 @@ html, body{
 
 }
 
-.faixa_inferior{
+.faixa_inferior {
 
 	clear: both;
 	height: 5px;
@@ -162,7 +162,7 @@ html, body{
 
 }
 
-#lado_direito{
+#lado_direito {
 
 	padding: 25px;
 	min-height: 430px;
@@ -170,7 +170,7 @@ html, body{
 }
 
 
-#lado_esquerdo{
+#lado_esquerdo {
 
 	text-align: center;
 	min-height: 200px;
@@ -178,7 +178,7 @@ html, body{
 
 }
 
-#faixa_superior{
+#faixa_superior {
 
 	height: 15px;
 	background-color: #4cb1ef;
@@ -187,7 +187,7 @@ html, body{
 
 }
 
-#conteudo{
+#conteudo {
 
 	padding-top: 40px;
 	padding-bottom: 60px;
@@ -199,7 +199,7 @@ html, body{
 	padding-bottom: 30px;
 }
 
-#foto{
+#foto {
 
 	max-width: 230px;
 	height: auto;
@@ -211,8 +211,7 @@ html, body{
 }
 
 
-
-h1{
+h1 {
 
 	font-size: 20px;
 	font-weight: bold;
