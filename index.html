@@ -18,21 +18,30 @@
 
 	<header>
 
-
 		<div id="inicio">
 
 
 			<div class="container">
 
+				<div class="language">
+					<p><span id="pt">Português</span> | <span id="en">English</span></p>
+				</div>
+
 				<div class="menu">
 				
 					<div id="lado_esquerdo">
 
-						<h1 id="nome">Olá! Meu nome é <span class="palavra_destacada">Rodrigo.</span></h1>
+						<h1 id="nome" class="portuguese">Olá! Meu nome é <span class="palavra_destacada">Rodrigo.</span></h1>
+						<h1 id="nome" class="english">Hello! My name is <span class="palavra_destacada">Rodrigo.</span></h1>
 
-						<h1>Tenho <span class="palavra_destacada">20 anos</span>, 
+						<h1 class="portuguese">Tenho <span class="palavra_destacada">20 anos</span>, 
 						sou <span class="palavra_destacada">Técnico em Informática</span> 
 						e Estudante de <span class="palavra_destacada">Tecnologia da Informação.</span>
+						</h1>
+
+						<h1 class="english">I'm <span class="palavra_destacada">20 years old</span>, 
+						and I'm a <span class="palavra_destacada">Computer Technician</span> 
+						and a <span class="palavra_destacada">Computer Science student.</span>
 						</h1>
 					
 					</div>
@@ -42,9 +51,15 @@
 						<div>
 							
 							<img id="foto" src="imagens/foto.png">
-							<div class="contato">
+							<div class="contato portuguese">
 
-								rocha.rodrigogomes@gmail.com
+								<span style="font-weight: bold">E-mail: </span> rocha.rodrigogomes@gmail.com
+
+							</div>
+
+							<div class="contato english">
+
+								<span style="font-weight: bold">Email: </span> rocha.rodrigogomes@gmail.com
 
 							</div>
 
@@ -55,8 +70,6 @@
 							</div>
 
 						</div>
-
-
 						
 
 					</div>
@@ -77,33 +90,45 @@
 
 			<div>
 
-				<h1 class="titulos">Sobre mim</h1>
+				<h1 class="titulos portuguese">Sobre mim</h1>
+				<h1 class="titulos english">About me</h1>
 
-				<p>Sou Técnico de Informática pelo IFRN - Campus Parnamirim e Estudante de Tecnologia da Informação pela UFRN. Sou programador em formação em busca de oportunidades e entusiasta de tecnologia em geral.</p>
-				
+				<p class="portuguese">Sou Técnico de Informática pelo IFRN - Campus Parnamirim e Estudante de Tecnologia da Informação pela UFRN. Sou programador em formação, com foco em Desenvolvimento Web. Sou entusiasta de tecnologias em geral e estou sempre a procura de oportunidades de colocar em prática os conhecimentos os quais tenho adquirido ao longo da minha jornada de me tornar um programador e melhorar a cada dia</p>
+
+				<p class="english">I'm a Computer Tecnician and I'm currently a student of Computer Science. I'm a programming in training and I have my focus more on the Web Development field. I'm a technology enthusiast and I'm always seeking pportunities to put into practice my knowledge acquired on my journey of becoming a 
+				better computer programmer everyday.</p>
+
+				<p class="english">I acquired my Tecnhical Computer Course on the Federal Institute of Education, Science and Tecnology of Rio Grande do Norte - IFRN (Parnamirim, Brazil) and the I'm bachelor student of the Federal University of Rio Grande do Norte - UFRN (Natal, Brazil). My course is not exacly Computer Science (although it's related) but I use this title on the lack of a better fit.</p>
+
+				<p class="english">By the way, I'm a brazilian as you've probably guessed by now.</p>
 
 			</div>
 
 			<div>
 
-				<h1 class="titulos">Linguagens e Tecnologias</h1>
+				<h1 class="titulos portuguese">Linguagens e Tecnologias</h1>
+				<h1 class="titulos english">Programming Languages and Tecnologies</h1>
 
-				<p>Aqui estão algumas tecnologias as quais estudei e tenho certo conhecimento.</p>
-				<p>Por ordem de maior para menor familiaridade:</p>
+				<p class="portuguese">Conhecimentos em Tecnologias de Desenvolvimento e Hardware as quais tenho trabalhado e/ou estudado.</p>
+				<p class="portuguese">Ordenados pela maior familiaridade:</p>
+
+				<p class="english">Knowledge of Development Tecnologies and Hardware which I've worked and/or studied.</p>
+				<p class="english">Ordened by familiarity:</p>
 
 				<div class="wrapper">
-					
-					<div class="bloco_pequeno txtcentral">
-
-						<p>Manutenção de Computadores</p>
-						
-					</div>
 
 					<div class="bloco_pequeno">
 
 						<img src="imagens/python.png">
 						<p>Python</p>
 
+					</div>
+					
+					<div class="bloco_pequeno txtcentral">
+
+						<p class="portuguese">Manutenção de Computadores</p>
+						<p class="english">Computer Maintenance</p>
+						
 					</div>
 
 					<div class="bloco_pequeno">
@@ -117,6 +142,13 @@
 
 						<img src="imagens/css.png">
 						<p>CSS</p>
+				
+					</div>
+
+					<div class="bloco_pequeno">
+
+						<img src="imagens/pyramid.png">
+						<p>Pyramid</p>
 				
 					</div>
 
@@ -143,15 +175,8 @@
 
 					<div class="bloco_pequeno">
 
-						<img src="imagens/typescript.png">
-						<p>Typescript</p>
-						
-					</div>
-
-					<div class="bloco_pequeno">
-
-						<img src="imagens/angular.png">
-						<p>Angular</p>
+						<img src="imagens/angularts.png">
+						<p>Angular TS</p>
 						
 					</div>
 
@@ -169,9 +194,32 @@
 						
 					</div>
 
+
+					<div class="bloco_pequeno">
+
+						<img src="imagens/bootstrap.png">
+						<p>Bootstrap</p>
+						
+					</div>
+
+					<div class="bloco_pequeno">
+
+						<img src="imagens/javascript.png">
+						<p>Javascript</p>
+						
+					</div>
+
+					<div class="bloco_pequeno">
+
+						<img src="imagens/jquery.png">
+						<p>Jquery</p>
+						
+					</div>
+
 					<div class="bloco_pequeno txtcentral">
 						
-						<p>Redes de Computadores</p>
+						<p class="portuguese">Redes de Computadores</p>
+						<p class="english">Computer Networks</p>
 						
 					</div>
 
@@ -179,14 +227,19 @@
 				
 			</div>
 
-
 			<div>
 
-				<h1 class="titulos">Projetos</h1>
+				<h1 class="titulos portuguese">Projetos</h1>
+				<h1 class="titulos english">Projects</h1>
 
 
-				<p>Aqui estão alguns projetos acadẽmicos de desenvolvimento que eu trabalhei, alguns scripts ou projetos que construí a fim de testar algumas tecnologias.</p>
-				<p>Estou atualmente estudando algumas tecnologias WEB e pretendo fazer projetos WEB em breve.</p>
+				<p class="portuguese">Aqui estão alguns projetos acadẽmicos de desenvolvimento que eu trabalhei, alguns scripts ou projetos que construí a fim de testar algumas tecnologias.</p>
+				<p class="portuguese">Estou atualmente estudando algumas tecnologias WEB e pretendo fazer projetos WEB em breve.</p>
+
+				<p class="english">Here are some of the academic projects I've worked with, some scripts and other projects created in order
+				to test some technologies.</p>
+				<p class="english">I'm currently studying some Web Development tecnologies and I'm planning on using them to create some projects soon.</p>
+
 
 
 				<div class=" bloco_grande projetos">
@@ -199,19 +252,19 @@
 
 					<div>
 
-						<p>Geneticats é um Jogo Educacional voltado a facilitar o aprendizado dos conteúdos de Genética da Biologia do ensino médio. O aplicativo apresenta os conteúdos de forma lúdica, atrávés de simulação de cruzamento entre gatinhos, podendo o usuário ver as características sendo passadas hereditáriamente e aprender o papel dos genes nesse processo. </p>
+						<p class="portuguese"> Geneticats é um Jogo Educacional voltado a facilitar o aprendizado dos conteúdos de Genética da Biologia do ensino médio. O aplicativo apresenta os conteúdos de forma lúdica, atrávés de simulação de cruzamento entre gatinhos, podendo o usuário ver as características sendo passadas hereditáriamente e aprender o papel dos genes nesse processo.</p>
 
-						<a href="geneticats.html">Saiba Mais</a>
+						<p class="english">Geneticats is an Educational Game in portuguese designed to facilitate the learning of high school Biology Genetics content. The application presents the contents in a playful way, through simulation of crossbreeding between kittens, allowing the user to see the characteristics being passed hereditarily and learn the role of genes in this process.</p>
+
+						<a href="geneticats.html" class="portuguese">Saiba Mais</a>
+						<a href="geneticats.html" class="english">Find out more</a>
 						
 					</div>
-					
-					
 
 				</div>
 				
 			</div>
-			
-
+		
 		</div>
 
 	<div class="faixa_inferior"></div>
@@ -222,7 +275,8 @@
 		Rodrigo Gomes da Rocha <br> 
 		2019 <br> 	
 		</p>
-		
+
+		<script type="text/javascript" src="script.js"></script>
 
 	</footer>
 

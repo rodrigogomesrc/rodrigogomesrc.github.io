@@ -10,13 +10,18 @@ html, body {
 
 }
 
+.language {
+
+	font-weight: bold;
+	cursor: pointer;
+	padding-top: 15px;
+	position: relative;
+}
+
+
 .content {
 
 	text-align: justify;
-}
-
-.content {
-
 	padding: 30px 0px 50px;
 }
 
@@ -37,6 +42,7 @@ html, body {
 	display: grid;
 	grid-template-columns: 1fr;
 }
+
 
 .nav {
 
@@ -153,10 +159,11 @@ html, body {
 	color: white;
 }
 
+/*#113977*/
 
 #inicio {
 
-	background-color: #113977;
+	background: linear-gradient( to bottom right, #02122b, #11397d);
 	height: 700px;
 	color: white;
 
@@ -166,7 +173,6 @@ html, body {
 
 	padding: 25px;
 	min-height: 430px;
-	
 }
 
 
@@ -225,7 +231,7 @@ footer {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #113977;
+	background: linear-gradient( to bottom right, #02122b, #11397d);
 
 }
 
