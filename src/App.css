@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding : 15px;
+    padding-top: 30px;
+    min-height: calc(100vh - 281px);
+}
+
+.center {
+
+    margin: 0 auto;
+}
+
+.simple-link{
+
+    text-decoration: none;
+}
+
+.title {
+
+    color: rgb(25, 45, 160);
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.paragraph {
+
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.center-paragraph {
+
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.page-link {
+
+    text-decoration: none;
+}
