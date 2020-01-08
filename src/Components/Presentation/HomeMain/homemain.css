@@ -1,0 +1,37 @@
+#home-main-page {
+
+    padding-bottom: 100px;
+}
+
+.star-description-holder {
+
+  display: flex;
+}
+
+.star-description {
+
+    padding-top: 4px;
+    margin-left: 10px;
+}
+
+.star-description-title {
+
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+@media(max-width: 800px){
+
+    .star-description-holder {
+
+        display: inline;
+    }
+
+    .star-description {
+
+        padding-top: 0px;
+        margin-left: 0px;
+        padding-bottom: 15px;
+    }
+}
